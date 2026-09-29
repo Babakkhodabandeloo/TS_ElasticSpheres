@@ -147,3 +147,5 @@ after starting the Streamlit server as described above.
 ## License
 
 License information will be added according to the requirements of the CRIMAC/Institute of Marine Research project.
+
+temporary web: https://crimac-elastic-spheres-ts.streamlit.app/
