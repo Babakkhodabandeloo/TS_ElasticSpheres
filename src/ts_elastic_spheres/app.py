@@ -110,7 +110,7 @@ diameter_mm = st.sidebar.number_input(
     "Diameter (mm)",
     min_value=1.0,
     max_value=200.0,
-    value=57.2,
+    value=38.1,
     step=0.1,
 )
 
@@ -125,7 +125,7 @@ f_start_khz = st.sidebar.number_input(
     "Start frequency (kHz)",
     min_value=1.0,
     max_value=1000.0,
-    value=38.0,
+    value=33.0,
     step=1.0,
 )
 
