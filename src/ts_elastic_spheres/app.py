@@ -369,14 +369,10 @@ if show_cw:
 
 fig.update_layout(
     xaxis_title="Frequency (kHz)",
-    yaxis_title="TS (dB re 1 m²)",
+    yaxis_title="Target Strength (dB re 1 m²)",
     hovermode="x",
-    height=650,
-
-    font=dict(
-        size=16,
-    ),
-
+    autosize=True,
+    font=dict(size=16),
     legend=dict(
         font=dict(size=16),
         title=dict(
@@ -401,8 +397,8 @@ fig.update_yaxes(
 st.plotly_chart(
     fig,
     use_container_width=True,
+    config={"responsive": True},
 )
-
 
 # ==============================================================
 # Calculated spheres
