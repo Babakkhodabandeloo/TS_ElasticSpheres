@@ -369,29 +369,32 @@ if show_cw:
 
 fig.update_layout(
     xaxis_title="Frequency (kHz)",
-    yaxis_title="Target Strength (dB re 1 m²)",
+    yaxis_title="TS (dB re 1 m²)",
     hovermode="x",
     autosize=True,
-    font=dict(size=16),
+    margin=dict(l=20, r=20, t=30, b=20),
+    font=dict(size=14),
     legend=dict(
-        font=dict(size=16),
-        title=dict(
-            text="Sphere",
-            font=dict(size=17),
-        ),
+        orientation="h",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="left",
+        x=0,
+        font=dict(size=13),
+        title=None,
     ),
 )
 
 fig.update_xaxes(
     showgrid=True,
-    title_font=dict(size=20),
-    tickfont=dict(size=16),
+    title_font=dict(size=16),
+    tickfont=dict(size=13),
 )
 
 fig.update_yaxes(
     showgrid=True,
-    title_font=dict(size=20),
-    tickfont=dict(size=16),
+    title_font=dict(size=16),
+    tickfont=dict(size=13),
 )
 
 st.plotly_chart(
