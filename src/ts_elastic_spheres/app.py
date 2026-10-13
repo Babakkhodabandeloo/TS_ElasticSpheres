@@ -401,15 +401,17 @@ fig.update_layout(
 
 fig.update_xaxes(
     showgrid=True,
-    title_font=dict(size=16),
+    title_font=dict(size=17),
     tickfont=dict(size=13),
+    title_standoff=16,
+    automargin=True,
 )
 
 fig.update_yaxes(
     showgrid=True,
     title_font=dict(size=17),
     tickfont=dict(size=13),
-    title_standoff=20,
+    title_standoff=16,
     automargin=True,
 )
 
