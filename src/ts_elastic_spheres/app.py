@@ -402,7 +402,7 @@ fig.update_layout(
 fig.update_xaxes(
     showgrid=True,
     title_font=dict(size=17),
-    tickfont=dict(size=13),
+    tickfont=dict(size=16),
     title_standoff=16,
     automargin=True,
 )
@@ -410,7 +410,7 @@ fig.update_xaxes(
 fig.update_yaxes(
     showgrid=True,
     title_font=dict(size=17),
-    tickfont=dict(size=13),
+    tickfont=dict(size=16),
     title_standoff=16,
     automargin=True,
 )
