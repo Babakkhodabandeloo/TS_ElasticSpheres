@@ -407,8 +407,10 @@ fig.update_xaxes(
 
 fig.update_yaxes(
     showgrid=True,
-    title_font=dict(size=16),
+    title_font=dict(size=17),
     tickfont=dict(size=13),
+    title_standoff=20,
+    automargin=True,
 )
 
 st.plotly_chart(
