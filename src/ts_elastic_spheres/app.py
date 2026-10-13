@@ -323,9 +323,9 @@ fig = go.Figure()
 
 fig.update_layout(
     colorway=[
-        "#00008B",  # Dark blue
-        "#af0606",  # Red
-        "#072217",  # Blue
+        "#2A2A96",  # Dark blue
+        "#e00a0a",  # Red
+        "#045C39",  # Blue
         "#7593e6",  # Green
         "#8e9108",  # Orange
         "#737075",  # Purple
