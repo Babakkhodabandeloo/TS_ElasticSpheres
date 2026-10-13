@@ -325,11 +325,11 @@ fig.update_layout(
     colorway=[
         "#2A2A96",  # Dark blue
         "#e00a0a",  # Red
-        "#045C39",  # Blue
-        "#7593e6",  # Green
-        "#8e9108",  # Orange
-        "#737075",  # Purple
-        "#17becf",  # Cyan
+        "#18C9F5",  # Blue
+        "#07e22b",  # Green
+        "#686861",  # Orange
+        "#506B05",  # Purple
+        "#1f8792",  # Cyan
         "#8c564b",  # Brown
         "#04be58",  # Pink
     ]
