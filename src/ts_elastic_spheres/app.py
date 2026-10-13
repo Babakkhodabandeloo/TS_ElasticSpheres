@@ -321,6 +321,20 @@ st.subheader("Target Strength")
 
 fig = go.Figure()
 
+fig.update_layout(
+    colorway=[
+        "#00008B",  # Dark blue
+        "#af0606",  # Red
+        "#072217",  # Blue
+        "#7593e6",  # Green
+        "#8e9108",  # Orange
+        "#737075",  # Purple
+        "#17becf",  # Cyan
+        "#8c564b",  # Brown
+        "#04be58",  # Pink
+    ]
+)
+
 for result in st.session_state.results:
 
     label = (
